@@ -41,7 +41,7 @@ input[type="search"]:focus {
 	outline: none;
 }
 
-input:focus::-webkit-input-placeholder{
+input:focus::-webkit-input-placeholder {
     color: #ec5a62;
     -webkit-transition: color .3s ease;
        -moz-transition: color .3s ease;
@@ -60,6 +60,14 @@ input[type="submit"] {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: transparent;
+}
+input[type="submit"]:hover {
+	background-size: 5vw;
+	-webkit-transition: all .3s ease;
+       -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
 }
 input[type="submit"]:hover {
 	border: none;
